@@ -1,10 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+/*
+var(--primary--orange);
+var(--neutral--white);
+var(--neutral--light-gray);
+var(--neutral--medium-gray);
+var(--neutral--dark-blue);
+var(--neutral--very-dark-blue);
+*/
+
+:root {
+    font-size: 62.5%;
+    --primary--orange: hsl(25, 97%, 53%);
+    --neutral--white: hsl(0, 0%, 100%);
+    --neutral--light-gray: hsl(217, 12%, 63%);
+    --neutral--medium-gray: hsl(216, 12%, 54%);
+    --neutral--dark-blue: hsl(213, 19%, 18%);
+    --neutral--very-dark-blue: hsl(216, 12%, 8%);
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: #efedd6;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
