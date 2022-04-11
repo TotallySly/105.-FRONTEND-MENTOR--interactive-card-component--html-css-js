@@ -11,6 +11,8 @@ var(--neutral--very-dark-blue);
 
 :root {
     font-size: 62.5%;
+    margin: 0;
+    padding: 0;
     --primary--orange: hsl(25, 97%, 53%);
     --neutral--white: hsl(0, 0%, 100%);
     --neutral--light-gray: hsl(217, 12%, 63%);
@@ -24,14 +26,33 @@ var(--neutral--very-dark-blue);
 }
 
 body {
-    font-family: 'Overpass', sans-serif;
-    font-size: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height: 100vh;
+    overflow: hidden;
     margin: 0;
-    overflow-x: hidden;
+    background-color: var(--neutral--very-dark-blue);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--neutral--dark-blue);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 5%;
+}
+
+.star--logo {
+    margin-top: 3rem;
+}
+
+.bright--white {
+    color: var(--neutral--white);
 }
 
 .attribution {
