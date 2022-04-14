@@ -73,6 +73,17 @@ body {
     font-weight: 400;
 }
 
+.ratings--container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    color: var(--neutral--medium-gray);
+}
+
+.btn--submit {
+    margin-top: 2rem;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
