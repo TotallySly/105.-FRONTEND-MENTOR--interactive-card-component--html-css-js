@@ -47,8 +47,8 @@ body {
     border-radius: 5%;
 }
 
-.star--logo--container {
-    margin-top: 3rem;
+.inner--container--margin {
+    margin-top: 2rem;
     margin-left: 2rem;
 }
 
@@ -60,6 +60,7 @@ body {
 
 .bright--white {
     color: var(--neutral--white);
+    font-size: 2rem;
 }
 
 .attribution {
