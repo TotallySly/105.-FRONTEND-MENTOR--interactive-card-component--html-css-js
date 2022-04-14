@@ -67,6 +67,12 @@ body {
     font-size: 2rem;
 }
 
+.main--paragraph--text {
+    max-width: 85%;
+    color: var(--neutral--medium-gray);
+    font-weight: 400;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
