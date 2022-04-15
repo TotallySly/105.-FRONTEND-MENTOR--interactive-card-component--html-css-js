@@ -56,9 +56,12 @@ body {
     margin-left: 2rem;
 }
 
+.star--padding {
+    padding: 1.2rem;
+}
+
 .image--border {
     background-color: #3c434c;
-    padding: 1rem;
     border-radius: 50%;
 }
 
@@ -80,8 +83,15 @@ body {
     color: var(--neutral--medium-gray);
 }
 
-button {
+.btn {
     border-style: none;
+    padding: 1.5rem;
+    color: var(--neutral--medium-gray);
+    transition-duration: 0.4secs;
+}
+
+.btn:hover {
+    background-color: var(--primary--orange);
 }
 
 .btn--submit {

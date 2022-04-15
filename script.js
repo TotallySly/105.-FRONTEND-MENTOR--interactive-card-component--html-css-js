@@ -1,5 +1,5 @@
-btnTest = document.getElementById('btn')
+btnRating = document.querySelectorAll('btn')
 
-btnTest.addEventListener('click', function () {
+btnRating.addEventListener('click', function () {
     console.log('Hello World')
 })
