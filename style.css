@@ -85,7 +85,10 @@ body {
 
 .btn {
     border-style: none;
-    padding: 1.5rem;
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+    padding-left: 1.7rem;
+    padding-right: 1.7rem;
     color: var(--neutral--medium-gray);
     transition-duration: 0.4secs;
 }
