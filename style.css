@@ -107,6 +107,11 @@ button {
     color: var(--neutral--white);
 }
 
+.btn--clicked {
+    background-color: var(--neutral--medium-gray);
+    color: var(--neutral--white);
+}
+
 .submit--btn--container {
     display: flex;
     flex-direction: column;

@@ -8,7 +8,11 @@ const showRating = document.querySelector('.show--rating')
 
 ratings.forEach((rating) => {
     rating.addEventListener('click', (e) => {
+        rating.classList.add('btn--clicked')
         showRating.innerHTML = rating.innerHTML
+    }) 
+    if (classList.add("btn-clicked") !== true) {
+        rating.classList.remove()
     })
 })
 
