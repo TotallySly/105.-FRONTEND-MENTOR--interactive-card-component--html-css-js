@@ -164,9 +164,28 @@ button {
     padding-right: 2.5rem;
 }
 
+.thank--you--container {
+    display: flex;
+    justify-content: center;
+}
+
 h1 {
     color: var(--neutral--white);
     font-weight: 400;
+    padding-bottom: 0;
+    margin-bottom: 1rem;
+}
+
+.thank--you--message--container {
+    margin-left: 3rem;
+    margin-right: 3rem;
+    color: var(--neutral--medium-gray);
+    margin-bottom: 3rem;
+}
+
+.center--text {
+    display: flex;
+    justify-content: center;
 }
 
 .attribution {
