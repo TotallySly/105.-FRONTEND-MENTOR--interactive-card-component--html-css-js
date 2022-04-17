@@ -10,10 +10,7 @@ ratings.forEach((rating) => {
     rating.addEventListener('click', (e) => {
         rating.classList.add('btn--clicked')
         showRating.innerHTML = rating.innerHTML
-    }) 
-    if (classList.add("btn-clicked") !== true) {
-        rating.classList.remove()
-    })
+    }) if (
 })
 
 submitBtn.addEventListener('click', () => {
