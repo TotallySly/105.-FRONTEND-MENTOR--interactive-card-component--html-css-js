@@ -99,7 +99,7 @@ button {
     padding-left: 1.7rem;
     padding-right: 1.7rem;
     color: var(--neutral--medium-gray);
-    transition-duration: 0.4secs;
+    transition-duration: 0.7secs;
 }
 
 .btn:hover {
@@ -128,8 +128,9 @@ button {
     font-size: 1.5rem;
     letter-spacing: 0.2rem;
     font-weight: 500;
-    transition-duration: 0.4secs;
+    transition-duration: 0.7secs;
     box-shadow: 1px 1px 20px rgba(39, 27, 34, 0.8);
+    margin-bottom: 3rem;
 }
 
 .btn--submit:hover {
