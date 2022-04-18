@@ -107,7 +107,7 @@ button {
     color: var(--neutral--white);
 }
 
-.btn--clicked {
+.active {
     background-color: var(--neutral--medium-gray);
     color: var(--neutral--white);
 }

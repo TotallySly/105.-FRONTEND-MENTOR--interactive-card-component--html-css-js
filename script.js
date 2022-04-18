@@ -9,9 +9,9 @@ const showRating = document.querySelector('.show--rating')
 ratings.forEach((rating) => {
     rating.addEventListener('click', (e) => {
         showRating.innerHTML = rating.innerHTML
-        rating.classList.toggle('btn--clicked')
+        rating.classList.toggle('active')
     })
-    rating.classList.remove('btn--clicked')
+    rating.classList.remove('active')
 })
 
 submitBtn.addEventListener('click', () => {
