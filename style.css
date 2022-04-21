@@ -84,8 +84,28 @@ body {
 .ratings--container {
     margin-top: 2rem;
     display: flex;
-    justify-content: space-around;
-    color: var(--neutral--medium-gray);
+    justify-content: space-evenly;
+}
+
+.ratings--container input {
+    display: none;
+}
+
+.ratings--container input + label {
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: #3c434c;
+    border-radius: 50%;
+    padding: 1rem;
+    color: white;
+}
+
+.ratings--container input:checked + label {
+    background-color: var(--neutral--light-gray);
+}
+
+.ratings--container input + label:hover {
+    background-color: var(--primary--orange);
 }
 
 button {

@@ -11,7 +11,6 @@ ratings.forEach((rating) => {
         showRating.innerHTML = rating.innerHTML
         rating.classList.toggle('active')
     })
-    rating.classList.remove('active')
 })
 
 submitBtn.addEventListener('click', () => {
