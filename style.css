@@ -27,7 +27,7 @@ var(--neutral--very-dark-blue);
 
 body {
     font-family: 'Overpass', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,6 +49,7 @@ body {
     margin-left: 2rem;
     margin-right: 2rem;
     border-radius: 20px 20px 20px 20px;
+    max-width: 40rem;
 }
 
 .inner--container--margin--star {
@@ -207,11 +208,8 @@ h1 {
     margin-right: 3rem;
     color: var(--neutral--medium-gray);
     margin-bottom: 3rem;
-}
-
-.center--text {
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    max-width: 40rem;
 }
 
 .attribution {
