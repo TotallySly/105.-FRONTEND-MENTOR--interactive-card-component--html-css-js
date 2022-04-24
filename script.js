@@ -3,7 +3,7 @@
 const submitBtn = document.querySelector('.btn--submit')
 const hideContainer = document.querySelector('.vanish')
 const showContainer = document.querySelector('.invisible')
-const formRating = document.querySelector('form')
+
 let rating = document.querySelectorAll('input')
 let showValue = document.querySelector('.show--rating')
 
